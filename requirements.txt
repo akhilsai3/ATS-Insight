@@ -1,11 +1,12 @@
-matplotlib
-streamlit 
-pandas 
-plotly 
-nltk 
-scikit-learn 
-pypdf2 
-python-docx
-spacy
+streamlit
 spacy==3.7.2
+thinc==8.2.2
+scikit-learn
+nltk
+plotly
+pandas
+matplotlib
+PyPDF2
+python-docx
+
 
