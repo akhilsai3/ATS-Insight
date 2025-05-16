@@ -6,5 +6,6 @@ nltk
 scikit-learn 
 pypdf2 
 python-docx
+spacy
 spacy==3.7.2
 
