@@ -1,6 +1,6 @@
 streamlit
-spacy==3.7.2
-thinc==8.2.4
+spacy==3.6.1
+thinc==8.1.10
 scikit-learn
 nltk
 plotly
@@ -8,5 +8,3 @@ pandas
 matplotlib
 PyPDF2
 python-docx
-
-
