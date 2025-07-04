@@ -109,10 +109,10 @@ with col1:
     st.subheader("Upload Your Resume")
     resume_file = st.file_uploader("Upload your resume (PDF or DOCX)", type=["pdf", "docx"])
     
-    MAX_FILE_SIZE = 200 * 1024 * 1024  # 5MB
+    MAX_FILE_SIZE = 2 * 1024 * 1024  # 2MB
     
     if resume_file and resume_file.size > MAX_FILE_SIZE:
-        st.error("File too large (max 5MB allowed)")
+        st.error("File too large (max 2MB allowed)")
         resume_file = None
     
     if resume_file is not None:
