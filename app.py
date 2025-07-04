@@ -107,7 +107,7 @@ resume_text = None
 # Resume Upload Section
 with col1:
     st.subheader("Upload Your Resume")
-    resume_file = st.file_uploader("Upload your resume (PDF or DOCX)", type=["pdf", "docx"])
+    resume_file = st.file_uploader( "Upload your resume (PDF or DOCX, max 2MB)", type=["pdf", "docx"])
     
     MAX_FILE_SIZE = 2 * 1024 * 1024  # 2MB
     
